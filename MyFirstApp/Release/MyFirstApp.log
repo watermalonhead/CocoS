@@ -1,0 +1,51 @@
+﻿生成启动时间为 2016/1/6 1:28:45。
+     1>项目“C:\Users\Simon c\Desktop\游戏设计框架\MyFirstApp\MyFirstApp.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cApp.cpp
+         cApp.cpp
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(25): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\wchar.h(841) : 参见“_wfopen”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\Mario.h(26): warning C4305: “初始化”: 从“double”到“float”截断
+     1>cApp.cpp(25): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+     1>cApp.cpp(26): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+     1>cApp.cpp(27): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+     1>cApp.cpp(28): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+     1>cApp.cpp(53): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>cApp.cpp(145): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>cApp.cpp(146): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>cApp.cpp(158): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\wchar.h(787) : 参见“_swprintf”的声明
+     1>cApp.cpp(160): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\wchar.h(787) : 参见“_swprintf”的声明
+     1>cApp.cpp(162): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Microsoft Visual Studio 12.0\VC\include\wchar.h(787) : 参见“_swprintf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\capp.cpp(240): warning C4715: “cApp::Frame”: 不是所有的控件路径都返回值
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Simon c\Desktop\游戏设计框架\Release\MyFirstApp.exe" /INCREMENTAL /NOLOGO cximagecrtu.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Simon c\Desktop\游戏设计框架\Release\MyFirstApp.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Simon c\Desktop\游戏设计框架\Release\MyFirstApp.lib" /MACHINE:X86 /SAFESEH Release\Brick.obj
+         Release\cApp.obj
+         Release\cBackground.obj
+         Release\cImg.obj
+         Release\cImgManager.obj
+         Release\cMovableMgr.obj
+         Release\Coin.obj
+         Release\cRole.obj
+         Release\cTriangle.obj
+         Release\Enemy.obj
+         Release\Engine_System.obj
+         Release\IMovable.obj
+         Release\main.obj
+         Release\MapIStrategy.obj
+         Release\Mario.obj
+         Release\Pipe.obj
+         Release\PointF.obj
+         Release\SoundManage.obj
+         Release\Turtle.obj
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/OPT:ICF”规范)
+         MyFirstApp.vcxproj -> C:\Users\Simon c\Desktop\游戏设计框架\Release\MyFirstApp.exe
+     1>已完成生成项目“C:\Users\Simon c\Desktop\游戏设计框架\MyFirstApp\MyFirstApp.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.13

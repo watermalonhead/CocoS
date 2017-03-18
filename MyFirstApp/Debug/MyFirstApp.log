@@ -1,0 +1,189 @@
+﻿生成启动时间为 2016/1/6 1:25:20。
+     1>项目“C:\Users\Simon c\Desktop\游戏设计框架\MyFirstApp\MyFirstApp.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Brick.cpp cApp.cpp cBackground.cpp cImg.cpp cImgManager.cpp cMovableMgr.cpp Coin.cpp cRole.cpp cTriangle.cpp Enemy.cpp Engine_System.cpp IMovable.cpp main.cpp MapIStrategy.cpp Mario.cpp Pipe.cpp PointF.cpp sound\SoundManage.cpp Turtle.cpp
+         Turtle.cpp
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(25): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(841) : 参见“_wfopen”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\mario.h(26): warning C4305: “初始化”: 从“double”到“float”截断
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\turtle.cpp(6): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(787) : 参见“_swprintf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\turtle.cpp(36): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\turtle.cpp(46): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(787) : 参见“_swprintf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\turtle.cpp(53): warning C4244: “参数”: 从“float”转换到“UINT”，可能丢失数据
+         SoundManage.cpp
+         PointF.cpp
+         Pipe.cpp
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(25): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(841) : 参见“_wfopen”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\pipe.cpp(20): warning C4244: “参数”: 从“float”转换到“UINT”，可能丢失数据
+         Mario.cpp
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(25): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(841) : 参见“_wfopen”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\mario.h(26): warning C4305: “初始化”: 从“double”到“float”截断
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\mario.cpp(47): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\mario.cpp(77): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(787) : 参见“_swprintf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\mario.cpp(82): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(787) : 参见“_swprintf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\mario.cpp(97): warning C4244: “参数”: 从“float”转换到“UINT”，可能丢失数据
+         MapIStrategy.cpp
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(25): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(841) : 参见“_wfopen”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\mario.h(26): warning C4305: “初始化”: 从“double”到“float”截断
+         main.cpp
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(25): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(841) : 参见“_wfopen”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\mario.h(26): warning C4305: “初始化”: 从“double”到“float”截断
+         IMovable.cpp
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(25): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(841) : 参见“_wfopen”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\imovable.cpp(34): warning C4244: “参数”: 从“float”转换到“UINT”，可能丢失数据
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\imovable.cpp(47): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\imovable.cpp(48): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\imovable.cpp(49): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\imovable.cpp(50): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+         Engine_System.cpp
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\engine_system.cpp(11): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\string.h(294) : 参见“wcscpy”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\engine_system.cpp(12): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\string.h(294) : 参见“wcscpy”的声明
+         Enemy.cpp
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(25): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(841) : 参见“_wfopen”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\enemy.cpp(5): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(787) : 参见“_swprintf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\enemy.cpp(20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\enemy.cpp(30): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(787) : 参见“_swprintf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\enemy.cpp(39): warning C4244: “参数”: 从“float”转换到“UINT”，可能丢失数据
+         cTriangle.cpp
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(25): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(841) : 参见“_wfopen”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\mario.h(26): warning C4305: “初始化”: 从“double”到“float”截断
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\ctriangle.cpp(6): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(787) : 参见“_swprintf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\ctriangle.cpp(41): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\ctriangle.cpp(51): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(787) : 参见“_swprintf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\ctriangle.cpp(57): warning C4244: “参数”: 从“float”转换到“UINT”，可能丢失数据
+         cRole.cpp
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(25): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(841) : 参见“_wfopen”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+         Coin.cpp
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(25): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(841) : 参见“_wfopen”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\mario.h(26): warning C4305: “初始化”: 从“double”到“float”截断
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\coin.cpp(6): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(787) : 参见“_swprintf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\coin.cpp(38): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\coin.cpp(48): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(787) : 参见“_swprintf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\coin.cpp(56): warning C4244: “参数”: 从“float”转换到“UINT”，可能丢失数据
+         cMovableMgr.cpp
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(25): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(841) : 参见“_wfopen”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\mario.h(26): warning C4305: “初始化”: 从“double”到“float”截断
+         cImgManager.cpp
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(25): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(841) : 参见“_wfopen”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+         cImg.cpp
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(25): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(841) : 参见“_wfopen”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\cimg.cpp(40): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\cimg.cpp(47): warning C4244: “return”: 从“UINT”转换到“float”，可能丢失数据
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\cimg.cpp(52): warning C4244: “return”: 从“UINT”转换到“float”，可能丢失数据
+         cBackground.cpp
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(25): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(841) : 参见“_wfopen”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\mario.h(26): warning C4305: “初始化”: 从“double”到“float”截断
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\cbackground.cpp(39): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\cbackground.cpp(43): warning C4244: “参数”: 从“float”转换到“UINT”，可能丢失数据
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\cbackground.cpp(67): warning C4244: “参数”: 从“float”转换到“UINT”，可能丢失数据
+         cApp.cpp
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(25): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(841) : 参见“_wfopen”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\mario.h(26): warning C4305: “初始化”: 从“double”到“float”截断
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\capp.cpp(25): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\capp.cpp(26): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\capp.cpp(27): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\capp.cpp(28): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\capp.cpp(53): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\capp.cpp(145): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\capp.cpp(146): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\capp.cpp(158): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(787) : 参见“_swprintf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\capp.cpp(160): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(787) : 参见“_swprintf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\capp.cpp(162): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(787) : 参见“_swprintf”的声明
+         Brick.cpp
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(25): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\wchar.h(841) : 参见“_wfopen”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\xiofile.h(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 12.0\vc\include\stdio.h(230) : 参见“fscanf”的声明
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\brick.cpp(19): warning C4244: “参数”: 从“float”转换到“UINT”，可能丢失数据
+         正在生成代码...
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\capp.cpp(240): warning C4715: “cApp::Frame”: 不是所有的控件路径都返回值
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\cmovablemgr.cpp(287): warning C4715: “cMovableMgr::isCollisionTriangel”: 不是所有的控件路径都返回值
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\cmovablemgr.cpp(334): warning C4715: “cMovableMgr::isCollisionTurtle”: 不是所有的控件路径都返回值
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\cmovablemgr.cpp(360): warning C4715: “cMovableMgr::isCollisionEnemy”: 不是所有的控件路径都返回值
+     1>c:\users\simon c\desktop\游戏设计框架\myfirstapp\engine_system.cpp(87): warning C4715: “cApplication::Run”: 不是所有的控件路径都返回值
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Simon c\Desktop\游戏设计框架\Debug\MyFirstApp.exe" /INCREMENTAL /NOLOGO cximagecrtdu.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Simon c\Desktop\游戏设计框架\Debug\MyFirstApp.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Simon c\Desktop\游戏设计框架\Debug\MyFirstApp.lib" /MACHINE:X86 /SAFESEH Debug\Brick.obj
+         Debug\cApp.obj
+         Debug\cBackground.obj
+         Debug\cImg.obj
+         Debug\cImgManager.obj
+         Debug\cMovableMgr.obj
+         Debug\Coin.obj
+         Debug\cRole.obj
+         Debug\cTriangle.obj
+         Debug\Enemy.obj
+         Debug\Engine_System.obj
+         Debug\IMovable.obj
+         Debug\main.obj
+         Debug\MapIStrategy.obj
+         Debug\Mario.obj
+         Debug\Pipe.obj
+         Debug\PointF.obj
+         Debug\SoundManage.obj
+         Debug\Turtle.obj
+     1>Brick.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         MyFirstApp.vcxproj -> C:\Users\Simon c\Desktop\游戏设计框架\Debug\MyFirstApp.exe
+     1>已完成生成项目“C:\Users\Simon c\Desktop\游戏设计框架\MyFirstApp\MyFirstApp.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.23

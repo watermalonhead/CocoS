@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="头文件\Enemy">
+      <UniqueIdentifier>{1e60b3dd-f100-4126-9d9e-95668062a600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Enemy">
+      <UniqueIdentifier>{179eba9c-d06f-4878-9d6e-060915d933b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Role">
+      <UniqueIdentifier>{010f5e31-304e-43a3-95b1-dce69c905292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Role">
+      <UniqueIdentifier>{51ced782-4724-4eec-ace5-27c5bf405ad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Hero">
+      <UniqueIdentifier>{fdd85cef-d88a-47fe-a002-410354ba1acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Hero">
+      <UniqueIdentifier>{7d0608cf-559c-4a7a-be27-9b09d922e574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Movable">
+      <UniqueIdentifier>{af9abe9d-0394-4676-ac49-21f0a13c1ba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Image">
+      <UniqueIdentifier>{9212aeaa-b1cb-4402-bdba-98b5bbe2d6db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine">
+      <UniqueIdentifier>{9330efc2-c9ae-4797-b853-3c6fae129e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BackGrond">
+      <UniqueIdentifier>{896cba1b-0ecb-4d86-aa3d-5201261e08c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\BackGrond">
+      <UniqueIdentifier>{6654864f-ba5c-4116-aaa4-6f11bf30ca16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\image">
+      <UniqueIdentifier>{27548e67-0b6d-4c37-8f66-453bc3b9da9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Movable">
+      <UniqueIdentifier>{6be0a39d-be74-4cb0-9964-20a01b5ea70a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Engine">
+      <UniqueIdentifier>{a4845da2-0546-403d-9041-cd4a8ee046a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\item">
+      <UniqueIdentifier>{06d9bc8e-f277-41a0-8bd1-cecc5cf1f696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\item">
+      <UniqueIdentifier>{031b60f8-08c6-42e7-8517-d3b7acceed98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Map">
+      <UniqueIdentifier>{ad523bb7-94f2-4ec3-90cf-370a2de62b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Map">
+      <UniqueIdentifier>{9b0f939d-4fa6-4981-b3c8-c74be26c1599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{d3cf867b-bac0-4a89-8bee-aa545f0c3c06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>源文件\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="cTriangle.cpp">
+      <Filter>源文件\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="cRole.cpp">
+      <Filter>源文件\Role</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario.cpp">
+      <Filter>源文件\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="cBackground.cpp">
+      <Filter>源文件\BackGrond</Filter>
+    </ClCompile>
+    <ClCompile Include="PointF.cpp">
+      <Filter>源文件\image</Filter>
+    </ClCompile>
+    <ClCompile Include="cImg.cpp">
+      <Filter>源文件\image</Filter>
+    </ClCompile>
+    <ClCompile Include="cImgManager.cpp">
+      <Filter>源文件\image</Filter>
+    </ClCompile>
+    <ClCompile Include="IMovable.cpp">
+      <Filter>源文件\Movable</Filter>
+    </ClCompile>
+    <ClCompile Include="cMovableMgr.cpp">
+      <Filter>源文件\Movable</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_System.cpp">
+      <Filter>源文件\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>源文件\item</Filter>
+    </ClCompile>
+    <ClCompile Include="Turtle.cpp">
+      <Filter>源文件\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="MapIStrategy.cpp">
+      <Filter>源文件\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipe.cpp">
+      <Filter>源文件\item</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>源文件\item</Filter>
+    </ClCompile>
+    <ClCompile Include="sound\SoundManage.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>头文件\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="cTriangle.h">
+      <Filter>头文件\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="cRole.h">
+      <Filter>头文件\Role</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario.h">
+      <Filter>头文件\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="IMovable.h">
+      <Filter>头文件\Movable</Filter>
+    </ClInclude>
+    <ClInclude Include="cMovableMgr.h">
+      <Filter>头文件\Movable</Filter>
+    </ClInclude>
+    <ClInclude Include="cImgManager.h">
+      <Filter>头文件\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="cImg.h">
+      <Filter>头文件\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="PointF.h">
+      <Filter>头文件\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine_System.h">
+      <Filter>头文件\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="cBackground.h">
+      <Filter>头文件\BackGrond</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>头文件\item</Filter>
+    </ClInclude>
+    <ClInclude Include="Turtle.h">
+      <Filter>头文件\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="MapIStrategy.h">
+      <Filter>头文件\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipe.h">
+      <Filter>头文件\item</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>头文件\item</Filter>
+    </ClInclude>
+    <ClInclude Include="sound\SoundManage.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
